@@ -1,11 +1,29 @@
 
+import PageTitle from '../../components/ui/PageTitle';
+import Card from '../../components/ui/Card';
+import Button from '../../components/ui/Button';
+
 function Profile() {
   return (
-    <section className="page">
-      <p>Profile Page</p>
-      <h1>My Profile</h1>
-      <p>View and manage your profile information here.</p>
-    </section>
+    <div className="page">
+      <PageTitle
+        title="My Profile"
+        subtitle="View your account information."
+      />
+
+      <Card
+        title="User Information"
+        description="Your TaskFlow profile details."
+      >
+        <p>Name: TaskFlow User</p>
+        <p>Email: user@example.com</p>
+
+        <Button
+          text="Edit Profile"
+          onClick={() => alert('Edit Profile')}
+        />
+      </Card>
+    </div>
   );
 }
 
