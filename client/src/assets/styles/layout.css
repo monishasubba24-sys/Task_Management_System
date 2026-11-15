@@ -1,0 +1,47 @@
+
+/* Sprint 8 - Layout Styles */
+
+/* Main application layout */
+
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header / Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+}
+
+/* Navigation links */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Main content */
+
+.main-content {
+  flex: 1;
+  width: 100%;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  padding: 20px;
+}

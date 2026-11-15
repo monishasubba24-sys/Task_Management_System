@@ -1,0 +1,86 @@
+
+/* Sprint 8 - Responsive Styles */
+
+/* Tablet screens */
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 20px;
+  }
+
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .page-title h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile screens */
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 16px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 16px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .page-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .ui-card {
+    padding: 18px;
+  }
+
+  .footer {
+    padding: 16px;
+  }
+}
+
+/* Small mobile screens */
+
+@media screen and (max-width: 480px) {
+  .page {
+    padding: 12px;
+  }
+
+  .navbar {
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .page-title h1 {
+    font-size: 1.4rem;
+  }
+
+  .ui-card {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
