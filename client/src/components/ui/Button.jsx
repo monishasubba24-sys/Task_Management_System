@@ -1,7 +1,7 @@
 
 function Button({
-  children,
   text,
+  children,
   onClick,
   type = 'button',
   variant = 'primary',
