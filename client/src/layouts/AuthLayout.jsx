@@ -2,7 +2,9 @@
 function AuthLayout({ children }) {
   return (
     <div className="auth-layout">
-      {children || <h1>Authentication Layout</h1>}
+      <main className="auth-content">
+        {children}
+      </main>
     </div>
   );
 }
