@@ -1,0 +1,74 @@
+
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 20px 40px;
+}
+
+.navbar h2 {
+  margin-bottom: 5px;
+}
+
+.main-content {
+  min-height: 70vh;
+  padding: 40px;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.page h1 {
+  margin: 12px 0;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.common-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.card {
+  padding: 20px;
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.loader {
+  padding: 20px;
+  text-align: center;
+}
